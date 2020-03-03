@@ -1,0 +1,22 @@
+digraph G {
+
+node[color = orange; style = filled];
+1;
+
+2[ label="2. 2. segundo"];
+
+1->2;
+1->2[dir=back];
+3[ label="3. 3. cuarto"];
+
+2->3;
+2->3[dir=back];
+4[ label="4. 4. tercero"];
+
+3->4;
+3->4[dir=back];
+1[ label="1. 1. primero"];
+
+4->1;
+4->1[dir=back];
+}
